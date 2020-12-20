@@ -1,0 +1,49 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBlack</item>
+        <item name="colorPrimaryDark">@color/colorBlack</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NumberButton">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="NumberButtonLand" parent="NumberButton">
+        <item name="android:layout_height">32dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="OperatorButton" parent="NumberButton">
+        <item name="android:textColor">@color/colorGreen</item>
+    </style>
+
+    <style name="OperatorButtonLand" parent="NumberButtonLand">
+        <item name="android:textColor">@color/colorGreen</item>
+    </style>
+
+    <style name="EqualsButton" parent="NumberButton">
+        <item name="android:background">@drawable/equals_button_background</item>
+    </style>
+
+    <style name="EqualsButtonLand" parent="NumberButtonLand">
+        <item name="android:background">@drawable/equals_button_background</item>
+    </style>
+
+    <style name="ClearButton" parent="NumberButton">
+        <item name="android:textColor">@color/colorOrange</item>
+    </style>
+
+    <style name="ClearButtonLand" parent="NumberButtonLand">
+        <item name="android:textColor">@color/colorOrange</item>
+    </style>
+
+</resources>
